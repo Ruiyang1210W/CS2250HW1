@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Website</title>
+   <link rel = "stylesheet" href="styles2.css">
 </head>
+
 <body>
+
+    <div class = "hero">
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+        <div class = "cube"></div>
+
     <h3>My works (digital drawing)</h3>
 
     <div class="row">
@@ -23,6 +35,13 @@
         </div>
     </div>
 
+    <div class = "myFancyButton">
+        <audio id = "sound1" src = "Krubb Wenkroist - Bleach.mp3" preload="auto"></audio>
+        <button onclick="document.getElementById('sound1').play();" style="border: 0; background: transparent">       
+                <img src = "OspreyButton.png" alt="submit" width="300" height="300">           
+        </button>
+    </div>
+
     <label for="emotion">Do you like my website?</label>
     <select id="emotion">
         <option value="good">Yes</option>
@@ -35,5 +54,7 @@
     <a href="index.html">
         Previous page
     </a>
+  
+   </div> 
 </body>
 </html>

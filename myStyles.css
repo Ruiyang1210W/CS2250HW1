@@ -76,3 +76,17 @@ html, body {
   audio::-webkit-media-controls-panel{
     background-color: #e73c7e;
   }
+
+  /*This is a test comment*/
+
+  .aBox{
+    background-color: #D64FB7;
+    width: 300px;
+    border: 5px solid #A41A80;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  p{
+    text-align: center;
+  }
